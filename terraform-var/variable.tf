@@ -1,3 +1,3 @@
 variable "ashok" {
-  default = {}
+  type = string
 }
