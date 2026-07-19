@@ -1,2 +1,2 @@
-ashok = t2.micro
+ashok = "t2.micro"
 environment = dev

@@ -1,2 +1,2 @@
-ashok = t3.medium
+ashok = "t3.medium"
 environment = prod
