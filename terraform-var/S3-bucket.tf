@@ -9,7 +9,7 @@ resource "aws_s3_bucket" "Tf_bucket"{
 
 
 resource "aws_s3_bucket_versioning" "versioning" {
-  bucket = aws_s3_bucket.tf_bucket.id
+  bucket = aws_s3_bucket.Tf_bucket.id
 
   versioning_configuration {
     status = "Enabled"
