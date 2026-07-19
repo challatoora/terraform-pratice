@@ -8,10 +8,10 @@
 # }
 
 
-resource "aws_s3_bucket_versioning" "versioning" {
-  bucket = aws_s3_bucket.Tf_bucket.id
+# resource "aws_s3_bucket_versioning" "versioning" {
+#   bucket = aws_s3_bucket.Tf_bucket.id
 
-  versioning_configuration {
-    status = "Enabled"
-  }
-}
+#   versioning_configuration {
+#     status = "Enabled"
+#   }
+# }
