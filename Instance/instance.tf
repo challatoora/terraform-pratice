@@ -5,3 +5,4 @@ resource "aws_instance" "murali" {
   count = var.ashok == "prod"? 2 : 1
 }
 
+
