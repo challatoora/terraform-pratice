@@ -1,2 +1,2 @@
-instance_type = t2.micro
-environment = dev
+ashok = t3.medium
+environment = prod
